@@ -3,3 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+div.wrap {
+    max-width: 1920px;
+}
+
+/* header */
+nav.icons ul li {
+    float: left;
+    list-style: none;
+    width: auto;
+    padding: 0 20px;
+    border-right: 1px solid white;
+}
+
+nav.icons ul li:last-child {
+    border-right: none;
+}
+
+nav.icons {
+    background-color: #202020;
+    padding-left: 2%;
+}
+
+nav.icons ul {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav.icons ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav.icons ul li a {
+    display: block;
+    line-height: 52px;
+    font-size: 18px;
+    color: #bbb;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-family: 'Saira Condensed', 'Arial', sans-serif;
+}
+
+nav.icons ul li i {
+    padding-right: 9px;
+    font-size: 25px;
+    vertical-align: -2px;
+}
+
+nav.icons ul li:first-of-type i {
+    font-size: 30px;
+    vertical-align: -4px;
+}
+
+nav.icons ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* main */
