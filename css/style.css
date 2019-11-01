@@ -66,6 +66,7 @@ nav.icons ul li a:hover {
 }
 
 /* main */
+/*witam*/
 div.bg {
     height: 85vh;
     background-image: url(../img/beverage-3157395_1280.jpg);
@@ -99,8 +100,103 @@ div.bg {
 }
 
 .opis {
+    position: absolute;
     text-align: center;
+    left: 170px;
+    top: 230px;
     font-size: 45px;
     padding-top: 35px;
     text-shadow: 0px 1px 20px black;
+}
+
+/*O mnie*/
+.about {
+    margin-top: 30px;
+}
+
+.about h1 {
+    font-size: 50px;
+    font-family: 'Saira Condensed', 'Arial', sans-serif;
+}
+
+.bio {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Moje zainteresowania*/
+#hobbies {
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#hobbies h1 {
+    font-family: 'Saira Condensed', 'Arial', sans-serif;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#hobbies .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container .hobby {
+    height: 40vh;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 5s;
+}
+
+.flex-container .hobby:nth-of-type(1) {
+    background-image: url(../img/birthday-3016615_1280.jpg);
+}
+
+.flex-container .hobby:nth-of-type(2) {
+    background-image: url(../img/walk.jpg);
+}
+
+.flex-container .hobby:nth-of-type(3) {
+    background-image: url(../img/write-593333_1280.jpg);
+}
+
+.flex-container .hobby:nth-of-type(4) {
+    background-image: url(../img/automotive-1866521_1280.jpg);
+}
+
+.hobby p {
+    font-family: 'Saira Condensed', 'Arial', sans-serif;
+    font-size: 50px;
+    padding: 0;
+    text-align: center;
+    transition: 1s;
+    cursor: default;
+    opacity: 0;
+    line-height: 40vh;
+    text-shadow: 0 0 4px black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hobby:hover p {
+    opacity: 1;
 }
