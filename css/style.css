@@ -12,11 +12,17 @@ div.wrap {
 }
 
 /* header */
+
+nav.icons {
+    width: 100%;
+    text-align: center;
+}
+
 nav.icons ul li {
     float: left;
     list-style: none;
     width: auto;
-    padding: 0 20px;
+    padding: 0 40px;
     border-right: 1px solid white;
 }
 
@@ -25,7 +31,7 @@ nav.icons ul li:last-child {
 }
 
 nav.icons {
-    background-color: #000000e0;
+    background-color: #000000e3;
 }
 
 nav.icons ul {
@@ -42,34 +48,30 @@ nav.icons ul::after {
 nav.icons ul li a {
     display: block;
     line-height: 7vh;
-    font-size: 16px;
-    color: #bbb;
+    font-size: 24px;
+    color: white;
     text-decoration: none;
-    font-size: 1rem;
     letter-spacing: 1px;
     font-family: 'Roboto', sans-serif;
-    transition: 0.1s;
+    transition: 0.2s;
+    font-weight: bold;
+    padding: 5px 0;
 }
 
 nav.icons ul li i {
     padding-right: 9px;
     font-size: 24px;
-    vertical-align: -2px;
-}
-
-nav.icons ul li:first-of-type i {
-    font-size: 30px;
-    vertical-align: -4px;
 }
 
 nav.icons ul li a:hover {
-    color: rgb(255, 255, 255);
+    color: royalblue;
 }
+
 
 /* main */
 /*witam*/
 div.bg {
-    height: 85vh;
+    height: 93vh;
     background-image: url(../img/beverage-3157395_1280.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -108,11 +110,13 @@ section.intro .text {
     font-size: 45px;
     padding-top: 35px;
     text-shadow: 0px 1px 20px black;
+    font-weight: bold;
 }
+
 
 /*O mnie*/
 .about {
-    margin-top: 40px;
+    margin-top: 70px;
     height: 350px;
 }
 
@@ -167,7 +171,7 @@ div.ble {
 #hobbies {
     max-width: 1920px;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 #hobbies h1 {
@@ -224,4 +228,107 @@ div.ble {
 
 .hobby:hover p {
     opacity: 1;
+}
+
+div.formularz {
+    margin: 0 auto;
+    max-width: 1024px;
+    padding-top: 40px;
+}
+
+.formularz form {
+    display: flex;
+    flex-direction: column;
+}
+
+section.contact {
+    padding-top: 80px;
+    background-color: black;
+    padding: 30px 10px;
+    padding-bottom: 80px;
+}
+
+.contact h1 {
+    padding-top: 50px;
+    font-family: 'Saira Condensed', 'Arial', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.contact input,
+.contact button {
+    width: 450px;
+    height: 50px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-family: 'Saira Condensed', 'Arial', sans-serif;
+    background-color: #fff;
+}
+
+.contact button {
+    font-weight: bold;
+    border: none;
+    font-size: 28px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.contact textarea {
+    width: 450px;
+    height: 250px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-family: 'Saira Condensed', 'Arial', sans-serif;
+}
+
+.contact button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.kolumny {
+    position: relative;
+}
+
+.socials {
+    color: white;
+    position: absolute;
+    left: 1000px;
+    bottom: 20px;
+    font-size: 30px;
+}
+
+.socials i {
+    font-size: 40px;
+}
+
+.socials p {
+    margin-bottom: 35px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.socials p:hover {
+    color: royalblue;
+    cursor: pointer;
+}
+
+.socials span {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: royalblue;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
 }
