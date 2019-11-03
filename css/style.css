@@ -275,6 +275,7 @@ section.contact {
     font-size: 28px;
     letter-spacing: 1px;
     word-spacing: 2px;
+    transition: 0.2s;
 }
 
 .contact textarea {
